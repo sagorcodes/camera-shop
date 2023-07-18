@@ -65,6 +65,15 @@ li img {
 .background-img IMG {
   width: 100%;
 }
+/* company logos section  */
+.company {
+  padding: 35px 180px;
+}
+.company-logos {
+  display: flex;
+  justify-content: space-around;
+  gap: 35px;
+}
 /* responsive css for mobile  */
 @media screen and (max-width: 576px) {
   .header {
@@ -92,6 +101,12 @@ li img {
   .banner-title {
     font-size: 28px;
   }
+  .company {
+    padding: 50px 40px;
+  }
+  .company-logos {
+    flex-wrap: wrap;
+  }
 }
 /* responsive css for tablet */
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -108,5 +123,11 @@ li img {
   }
   .banner-title {
     font-size: 35px;
+  }
+  .company {
+    padding: 50px 80px;
+  }
+  .company-logos {
+    flex-wrap: wrap;
   }
 }
