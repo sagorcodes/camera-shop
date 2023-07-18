@@ -57,7 +57,7 @@ li img {
   height: 475px;
   background-size: 100%;
   background-repeat: no-repeat;
-  margin: 80px 0;
+  margin: 170px 0 0;
 }
 .banner-img img {
   width: 100%;
@@ -72,6 +72,26 @@ li img {
     margin: 0 20px;
     margin-top: 20px;
   }
+  .banner-container {
+    flex-direction: column;
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 0 20px;
+  }
+  .banner-img {
+    width: 257px;
+    height: 257px;
+    margin: 20px 0;
+  }
+  .banner-img img {
+    width: 202px;
+    height: 190px;
+    position: relative;
+    bottom: -25px;
+  }
+  .banner-title {
+    font-size: 28px;
+  }
 }
 /* responsive css for tablet */
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -79,5 +99,14 @@ li img {
     flex-direction: column;
     margin: 0 20px;
     margin-top: 20px;
+  }
+  .banner-container {
+    flex-direction: column;
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 0 50px;
+  }
+  .banner-title {
+    font-size: 35px;
   }
 }
